@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakoupit CyberPunk 2077</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body class="bg-mydark1">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-cyber">
+      <div class="container-fluid container">
+              <a class="navbar-brand" href="../index.html">
+                  <img src="../Images/CyberPunk2077_Logo.png" alt="" width="200" height="45" class="d-inline-block align-text-top nav-item disabled">
+              </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bolder">
+              <li class="nav-item">
+              <a class="nav-link " href="./CD_Project.html">CD project</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link disabled" href="#">Zakoupit CyberPunk 2077</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  
+  <div class="container bg-mydark2 py-3">
+    <div class="row flex-lg-row-reverse align-items-center border-3 rounded-3 border-dark border m-1 mb-3">
+      <div class="col-10 col-sm-8 col-lg-5">
+        <img src="../Images/CyberPunk2077_Johny.jpg" class="d-block mx-lg-auto img-fluid p-3" alt="CD_Project Logo" loading="lazy">
+      </div>
+      <div class="col-lg-7 text-center">
+        <h1 class="display-5 fw-bold lh-1 text-cyber "><b> Proč nakupovat u nás?</b></h1>
+        <p class="lead text-white">Já taky nevím.</p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pb-3">
+      <div class="col">
+        <div class="card h-100 text-white bg-dark">
+          <img src="../Images/CyberPunk2077_EB.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cyberpunk 2077 - PC digitální STEAM klíč</h5>
+            <a tabindex="0" class="btn btn-lg bc border border-mydark1 border-3 rounded-3 bg-cyber" style="white-space: nowrap;" role="button" id="liveToastBtn">Zakoupit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-white bg-dark">
+          <img src="../Images/CyberPunk2077_SB.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cyberpunk 2077 - PC krabicová verze</h5>
+            <a tabindex="0" class="btn btn-lg bc border border-mydark1 border-3 rounded-3 bg-cyber" style="white-space: nowrap;" role="button" data-bs-toggle="popover" data-bs-trigger="focus" 
+            title="Omlouváme se." data-bs-content="Omlouváme se ale tento produkt je již vyprodán.">Zakoupit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-white bg-dark ">
+          <img src="../Images/CyberPunk2077_LB.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> Cyberpunk 2077 Collectors Edition </h5>
+            <a tabindex="0" class="btn btn-lg bc border border-mydark1 border-3 rounded-3 bg-cyber" style="white-space: nowrap;" role="button" data-bs-toggle="popover" data-bs-trigger="focus" 
+            title="Omlouváme se." data-bs-content="Omlouváme se ale tento produkt je již vyprodán.">Zakoupit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1>Oficiální triler k CyberPunk 2077. <b class="text-danger">Může obsahovat spoilery.</b></h1>
+    <video style="width: 100%; height: 100%; padding-bottom: 8px;" controls>
+      <source src='../Images/Cyberpunk2077_OfficialE32018Trailer.mp4' type="video/mp4">tutorial
+    </video>
+    <div class=" border-3 rounded-3 border-dark border p-2 row g-0 ">
+      <label for="exampleFormControlTextarea1" class="text-cyber form-label">Líbil se vám tetno treiler?</label>
+      <div class="col-sm-6 col-md-9"><textarea class="bg-secondary form-control text-white" id="exampleFormControlTextarea1" rows="2"></textarea></div>
+      <div class="col-sm-6 col-md-3"><button style="height: 100%; width: 100%;" type="button" class="btn bg-mydark3 text-white btn-lg col-6 col-md-4">odeslat</button></div>
+    </div>
+  </div>
+
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+    })
+    var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+        trigger: 'focus'
+    })
+  </script>
+
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <strong class="me-auto">Problém</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Zdá se že nám "došli klíče". přesto můžete hru koupit na <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/"><b>OFICIÁLNÍCH STRÁNKÁCH STEAMU.</b></a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var toastTrigger = document.getElementById('liveToastBtn')
+    var toastLiveExample = document.getElementById('liveToast')
+    if (toastTrigger) {
+      toastTrigger.addEventListener('click', function () {
+        var toast = new bootstrap.Toast(toastLiveExample)
+
+        toast.show()
+      })
+    }
+  </script>
+
+  <div class="container text-white">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 ">© 2022 CyberPunk 2077</p>
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">CyberPunk 2077</a></li>
+        <li class="nav-item"><a href="./CD_Project.html" class="nav-link px-2 text-muted ">CD Project</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted  disabled ">Zakoupit CyberPunk 2077</a></li>
+        </ul>
+    </footer>
+    </div>
+</body>
+</html>
